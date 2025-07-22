@@ -1,7 +1,7 @@
 {
   "name": "weather-project",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -34,10 +34,15 @@
     "url": "git+https://github.com/elij123/weather-project.git"
   },
   "author": "Elijah Stephen",
-  "license": "CC-BY-SA-4.0",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/elij123/weather-project/issues"
   },
   "homepage": "https://github.com/elij123/weather-project#readme",
+  "keywords": [
+    "weather",
+    "api",
+    "react"
+  ],
   "description": ""
 }
