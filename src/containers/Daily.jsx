@@ -1,4 +1,4 @@
-import CardDaily from "../CardDaily";
+import CardDaily from "../components/CardDaily";
 
 function Daily({daily,timeZone,icon}){
     return (

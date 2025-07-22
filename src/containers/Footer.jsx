@@ -1,4 +1,4 @@
-import weatherLogo from "./assets/openweather.jpg"
+import weatherLogo from "../assets/openweather.jpg"
 
 function Footer(){
     return (

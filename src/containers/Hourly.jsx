@@ -1,4 +1,4 @@
-import CardHourly from "../CardHourly"
+import CardHourly from "../components/CardHourly"
 
 function Hourly({hourly,timeZone, icon}){
     return (

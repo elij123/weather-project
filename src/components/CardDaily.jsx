@@ -1,4 +1,4 @@
-import {parseTimeAndDate,MULTIPLE} from "./parseTimeAndDate";
+import {parseTimeAndDate,MULTIPLE} from "../module/parseTimeAndDate";
 import {default as d2d} from "degrees-to-direction";
 
 

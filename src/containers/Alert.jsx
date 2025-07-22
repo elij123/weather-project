@@ -1,4 +1,4 @@
-import AlertCard from "../AlertCard";
+import AlertCard from "../components/AlertCard";
 
 function Alert({alerts,timeZone}){
     if (alerts) {

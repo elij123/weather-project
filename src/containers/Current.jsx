@@ -1,5 +1,5 @@
-import PlaceSearch from "./PlaceSearch.jsx";
-import {parseTimeAndDate,MULTIPLE} from "../module/parseTimeAndDate.js";
+import PlaceSearch from "../components/PlaceSearch";
+import {parseTimeAndDate,MULTIPLE} from "../module/parseTimeAndDate";
 import {default as d2d} from "degrees-to-direction";
 
 function Rain({current_rain}){

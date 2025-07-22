@@ -1,10 +1,10 @@
-import Current from './Current.jsx';
-import Alert from './Alert.jsx';
-import Hourly from './Hourly.jsx';
-import Daily from './Daily.jsx';
-import Footer from './Footer.jsx';
+import Current from './containers/Current.jsx';
+import Alert from './containers/Alert.jsx';
+import Hourly from './containers/Hourly.jsx';
+import Daily from './containers/Daily.jsx';
+import Footer from './containers/Footer.jsx';
 import { useState } from 'react';
-import { MULTIPLE,parseTimeAndDate } from './parseTimeAndDate.js';
+import { MULTIPLE,parseTimeAndDate } from './module/parseTimeAndDate.js';
 
 import morning from "/src/assets/morning.gif"
 import afternoon from "/src/assets/afternoon.gif"

@@ -1,4 +1,4 @@
-import {parseTimeAndDate,MULTIPLE} from "./parseTimeAndDate";
+import {parseTimeAndDate,MULTIPLE} from "../module/parseTimeAndDate";
 
 function AlertCard({alert,timeZone}){
     const fromTime = parseTimeAndDate(new Date(alert.start * MULTIPLE),timeZone)
