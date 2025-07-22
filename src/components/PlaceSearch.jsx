@@ -10,7 +10,7 @@ const PlaceSearch = ({changeLoc, setWeatherData}) => {
   const autocompleteRef = useRef(null);
 
   useEffect(() => {
-      Radar.initialize(import.meta.env.PK_KEY);
+      Radar.initialize(import.meta.env.VITE_PK_KEY);
 
       autocompleteRef.current = Radar.ui.autocomplete({
         container: 'autocomplete',
