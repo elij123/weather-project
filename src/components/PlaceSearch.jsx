@@ -10,7 +10,7 @@ const PlaceSearch = ({changeLoc, setWeatherData}) => {
   const autocompleteRef = useRef(null);
 
   useEffect(() => {
-      Radar.initialize('prj_live_pk_2e8105c0b6b1446a1f0f947e81c8a9842f85cbf5');
+      Radar.initialize(import.meta.env.PK_KEY);
 
       autocompleteRef.current = Radar.ui.autocomplete({
         container: 'autocomplete',
