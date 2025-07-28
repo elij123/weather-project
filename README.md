@@ -1,4 +1,4 @@
-Frontend created using React and Tailwind CSS and deployed as a service on [Render](render.com).
+Frontend created using React and Tailwind CSS and deployed as a service on [Render](https://render.com/).
 
 Weather API Data provided by [OpenWeatherMap](https://openweathermap.org) under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 Search Autocomplete is provided by [Radar](https://radar.com/).
