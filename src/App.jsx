@@ -25,7 +25,7 @@ import haze from "./assets/haze.svg"
 import cloud from "./assets/cloud.svg"
 
 const initialData = await fetch(`https://weather-project-api.onrender.com/weather/data?lat=12.99&lon=80.17`,{mode:"cors"})
-                    .then(res => {return res.json()}).catch(error => console.log(error))
+                    .then(res => {return res.json()})
 
 const weather_icon = {
   "01d":sun,

@@ -22,10 +22,6 @@ const PlaceSearch = ({changeLoc, setWeatherData}) => {
           fetch(generateURL(address.latitude,address.longitude),{mode:"cors"})
                 .then(res => {return res.json()})
                 .then(res => setWeatherData(res))
-                .catch(error => console.log(error))
-        },
-        onError: (error) => {
-          console.log(error)
         }
       });
 
