@@ -1,5 +1,5 @@
 const URL = "https://weather-project-api.onrender.com"
-import weatherLogo from `${URL}/assets/openweather.jpg`
+const weatherLogo = `${URL}/assets/openweather.jpg`
 
 function Footer(){
     return (
