@@ -6,23 +6,25 @@ import Footer from './containers/Footer.jsx';
 import { useState } from 'react';
 import { MULTIPLE,parseTimeAndDate } from './module/parseTimeAndDate.js';
 
-import morning from "/src/assets/morning.gif"
-import afternoon from "/src/assets/afternoon.gif"
-import evening from "/src/assets/sunset.gif"
-import night from "/src/assets/night.gif"
+const URL = "https://weather-project-api.onrender.com"
 
-import two_clouds from "./assets/two_clouds.svg"
-import thunder from "./assets/thunder.svg"
-import sun from "./assets/sun.svg"
-import sun_rain from "./assets/sun_rain.svg"
-import sun_cloudy from "./assets/sun_cloudy.svg"
-import snow from "./assets/snow.svg"
-import rain from "./assets/rain.svg"
-import moon from "./assets/moon.svg"
-import moon_rain from "./assets/moon_rain.svg"
-import moon_cloud from "./assets/moon_cloud.svg"
-import haze from "./assets/haze.svg"
-import cloud from "./assets/cloud.svg"
+const morning = `${URL}/assets/morning.gif`
+const afternoon = `${URL}/assets/afternoon.gif`
+const evening = `${URL}/assets/sunset.gif`
+const night = `${URL}/assets/night.gif`
+
+const two_clouds = `${URL}/assets/two_clouds.svg`
+const thunder = `${URL}/assets/thunder.svg`
+const sun = `${URL}/assets/sun.svg`
+const sun_rain = `${URL}/assets/sun_rain.svg`
+const sun_cloudy = `${URL}/assets/sun_cloudy.svg`
+const snow = `${URL}/assets/snow.svg`
+const rain = `${URL}/assets/rain.svg`
+const moon = `${URL}/assets/moon.svg`
+const moon_rain = `${URL}/assets/moon_rain.svg`
+const moon_cloud = `${URL}/assets/moon_cloudy.svg`
+const haze = `${URL}/assets/haze.svg`
+const cloud = `${URL}/assets/cloud.svg`
 
 const initialData = await fetch(`https://weather-project-api.onrender.com/weather/data?lat=12.99&lon=80.17`,{mode:"cors"})
                     .then(res => {return res.json()})
